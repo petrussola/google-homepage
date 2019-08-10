@@ -48,7 +48,8 @@ table {
 }
 
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	color: #5F6368;
 }
 
 .container {
@@ -116,5 +117,31 @@ img.search-icons {
 	max-width: 20px;
 	height: auto;
 }
+
+.mid-sub-bo-top {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.mid-sub-bo-top div {
+	padding: 30px 10px 10px 10px;
+}
+
+.mid-sub-bo-top p {
+	padding: 10px;
+	border-radius: 5px;
+	background: #F7F7F7;
+}
+
+.mid-sub-bot-bot {
+	padding: 20px 0;
+}
+
+.mid-sub-bot-bot a {
+	text-decoration: none;
+}
+
+
 
 
