@@ -54,5 +54,32 @@ table {
 .container {
 	display: flex;
 	flex-direction: column;
+	justify-content: space-between;
 }
+
+.container div {
+	padding: 15px 0;
+}
+
+.top-sec {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.top-sec p, .top-sec div {
+	padding: 0 10px;
+}
+
+.top-sec img {
+	max-width: 20px;
+	height: auto;
+}
+
+.top-sec .avatar img {
+	max-width: 40px;
+	height: auto;
+}
+
 
