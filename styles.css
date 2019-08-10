@@ -135,13 +135,61 @@ img.search-icons {
 }
 
 .mid-sub-bot-bot {
-	padding: 20px 0;
+	padding: 20px 0 70px 0; 
 }
 
 .mid-sub-bot-bot a {
 	text-decoration: none;
 }
 
+.low-sec {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background: #F2F2F2;
+}
+
+.low-sec div {
+	padding: 10px 0;
+}
+
+.low-sub-top {
+	border-top: 1px solid #E4E4E4;
+}
+.low-sub-top p {
+	padding: 0 30px;
+}
+
+.low-sub-sub {
+	border-top: 1px solid #E4E4E4;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.low-sub-sub nav {
+	padding: 0 30px;
+	display: flex;
+	flex-direction: row;
+	width: 50%;
+}
+
+
+.low-sub-sub p {
+	padding: 0 10px;
+}
+
+.low-sub-sub p.first-of-menu {
+	padding-left: 0;
+}
+
+.low-sub-sub-left {
+	justify-content: flex-start;
+}
+
+.low-sub-sub-right {
+	justify-content: flex-end;
+}
 
 
 
